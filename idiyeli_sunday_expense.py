@@ -80,4 +80,4 @@ if __name__ == "__main__" :
         print("#" * 20)
         print()       
     
-    print(edb.get_expense_by_id(expense_1.id, ))
+    print(edb.get_expense_by_id(expense_1.id))
