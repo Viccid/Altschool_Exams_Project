@@ -45,7 +45,7 @@ class ExpenseDatabase:
         print(f"{expense} was added successfully!")
 
     def remove_expense(self, expense_id):
-        self.expense = [expense for expense in self.expense if expense_id != expense_id]
+        self.expense = [expense for expense in self.expense if expense_id != expense.id]
         print(f"expense with id {expense_id} has been remove successfully!")
 
     def get_expense_by_id(self, expense_id):
