@@ -10,17 +10,23 @@ This Python script provides a simple implementation of an Expense Tracker using 
 ### Expense Class:
 #### Attributes:
 
- 	id : A unique identifier generated using the uuid module.
+     id : A unique identifier generated using the uuid module.
+*
 
-    title : The title or description of the expense.
+    title :  The title or description of the expense.
+    
+*
 
-    amount : The amount spent on the expense.
+    amount : The timestamp of when the expense was created in UTC format.
 
+*
 
-    created_at : The timestamp of when the expense was created
-    in UTC format.
+    created_at : The timestamp of when the expense was created in UTC format.
 
-    updated_at : The timestamp of when the expense was last updated in UTC format.
+*
+  
+    updated_at : The timestamp of when the expense was last updated in UTC format.  
+
 
 #### Methods :
 
@@ -114,11 +120,11 @@ Repository can be clone to youyr local machine with the following steps:
 * Open your terminal or command prompt
 * Type the 'cd' command on the terminal to navigate ( or specify a local where repository will be clone to on the local machine)
 
-> cd [location on local machine]   
+      cd [location on local machine]   
 
 * type the git clone command, space and Path to the repository to be clone on the local machine
 
-> git clone [Path for the repository]
+      git clone [Path for the repository]
 
 This is authomatically clone as required.
 
