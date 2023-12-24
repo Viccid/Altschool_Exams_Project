@@ -71,13 +71,13 @@ if __name__ == "__main__" :
     expense_3 = Expense (title= "Misc", amount= 10000) 
                    
 
-    edb = ExpenseDatabase() 
+    expenses = ExpenseDatabase() 
 
     for expense in [expense_1, expense_2, expense_3]:
-        edb.add_expense(expense)
-        print(edb.expense)
+        expenses.add_expense(expense)
+        print(expenses.expense)
         print()
         print("#" * 20)
         print()       
     
-    print(edb.get_expense_by_id(expense_1.id))
+    print(expenses.get_expense_by_id(expense_1.id))
