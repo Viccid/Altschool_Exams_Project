@@ -115,7 +115,7 @@ expenses.
 This demonstrates creating an expenses, adding them to the ExpenseDatabase, updating an expense, removing an expense, and retrieving expenses from the database.This can be adapted and integrated, more functionality can be added based on specific requirements.
 
 
-## Clone:
+## Cloning Of Project:
 Repository can be clone to youyr local machine with the following steps:
 * Open your terminal or command prompt
 * Type the 'cd' command on the terminal to navigate ( or specify a local where repository will be clone to on the local machine)
@@ -129,7 +129,7 @@ Repository can be clone to youyr local machine with the following steps:
 This is authomatically clone as required.
 
 
-## Run Code:
+## How To Run Expense Project Code:
 
 Steps to run the code:
 
@@ -146,6 +146,8 @@ Steps to run the code:
 
 * The output of your code will be displayed in the "Terminal" tab at the bottom of VSCode
 
+## Note:
+The python script Expense and ExpenseDatabase class explained the functionality of expense tracker.
 
 ## License:
 
